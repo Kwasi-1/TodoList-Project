@@ -1,0 +1,29 @@
+body {
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+.todo-input-grid{
+  margin-bottom: 15px;
+}
+.todo-input-grid, .todo-grid{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  gap: 10px;
+  align-items: center;
+}
+button{
+  padding: 10px;
+}
+.add-todo-button{
+  background-color: green;
+  color: white;
+  border: none;
+}
+.delete-button{
+  background-color: darkred;
+  color: white;
+  border: none;
+}
+.name-input, .due-date-input{
+  font-size: 15px;
+  padding: 6px;
+}
